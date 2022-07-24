@@ -12117,4 +12117,9 @@ fieldset:disabled .btn {
   -o-object-fit: cover;
      object-fit: cover;
 }
+
+.card-classic {
+  border-radius: 24px;
+  overflow: hidden;
+}
 /*# sourceMappingURL=all.css.map */
