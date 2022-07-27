@@ -548,7 +548,9 @@ $utilities: map-merge(
       values: map-merge(
         $utilities-bg-colors,
         (
-          "transparent": transparent
+          "transparent": transparent,
+          // custom
+          "gray":$gray-700
         )
       )
     ),

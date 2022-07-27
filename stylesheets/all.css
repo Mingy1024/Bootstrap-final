@@ -9035,6 +9035,11 @@ fieldset:disabled .btn {
   background-color: transparent !important;
 }
 
+.bg-gray {
+  --bs-bg-opacity: 1;
+  background-color: #495057 !important;
+}
+
 .bg-opacity-10 {
   --bs-bg-opacity: 0.1;
 }
