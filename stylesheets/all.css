@@ -12140,6 +12140,17 @@ fieldset:disabled .btn {
 .card-classic {
   border-radius: 24px;
   overflow: hidden;
-  border: 10px solid transparent;
+}
+
+.card-classic-img {
+  height: 400px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+@media (min-width: 992px) {
+  .card-classic-img {
+    height: 300px;
+  }
 }
 /*# sourceMappingURL=all.css.map */
