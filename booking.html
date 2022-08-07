@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="shortcut icon"
+      href="https://cdn-icons-png.flaticon.com/512/7780/7780149.png"
+    />
+    <title>泰蝦惹</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css"
+    />
+    <link rel="stylesheet" href="./stylesheets/all.css" />
+  </head>
+  <body style="background-image: linear-gradient(rgba(0,0,0,.2),rgba(0,0,0,.4)),url(https://images.unsplash.com/photo-1624223875266-81ebbb795584?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80); background-size: cover;">
+    <!-- 導覽列 -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top py-0">
+      <div class="container">
+        <a class="navbar-brand text-white" href="./index.html">
+          <img
+            src="https://cdn-icons-png.flaticon.com/512/7780/7780149.png"
+            style="height: 30px; width: 30px"
+            alt=""
+          />
+          泰蝦惹</a
+        >
+        <button
+          class="navbar-toggler my-4"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a
+                class="nav-link hover-link text-center py-4"
+                aria-current="page"
+                href="./index.html"
+                >首頁</a
+              >
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link hover-link text-center py-4"
+                href="./recommend.html"
+                >主廚推薦</a
+              >
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link hover-link text-center py-4"
+                href="./classic.html"
+                >經典美食</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link hover-link text-center py-4" href="#"
+                >套餐組合</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link hover-link text-center py-4 active" href="./booking.html"
+                >我要訂位</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <section class="container py-5">
+      <div class="row justify-content-center g-1">
+        <div class="col-lg-8" style="border-radius: 10px; background-image: url(https://www.toptal.com/designers/subtlepatterns/uploads/beige-tiles.png);">
+          <form action="" class="py-5 px-3 px-lg-32">
+            <h2 class="text-center fw-bold mb-3">泰蝦惹網路訂位系統</h2>
+            <h3 class="h4 deco-line mb-3">填寫資料</h3>
+            <div class="row gx-2">
+              <div class="col-12 mb-3">
+                <label for="name" class="mb-2">姓名</label>
+                <input
+                  type="text"
+                  class="form-control"
+                  id="name"
+                  aria-label="姓名"
+                />
+              </div>
+              <div class="col-12 mb-3">
+                <label for="phoneNumber" class="mb-2">手機號碼</label>
+                <input
+                  type="tel"
+                  class="form-control"
+                  id="phoneNumber"
+                  aria-label="手機號碼"
+                />
+              </div>
+              <div class="col-12 mb-3">
+                <label for="email" class="mb-2">電子郵件</label>
+                <input
+                  type="email"
+                  class="form-control"
+                  id="email"
+                  aria-label="電子郵件"
+                />
+              </div>
+              <div class="col-12 mb-3">
+                <label for="date" class="mb-2">日期</label>
+                <input type="date" class="form-control" id="date" aria-label="日期">
+              </div>
+              <div class="col-12 mb-3">
+                <label for="people" class="mb-2">人數</label>
+                <input type="number" class="form-control" id="people" aria-label="人數">
+              </div>
+              <div class="col-12 mb-3">
+                <label for="mealTime" class="mb-2">餐次</label>
+                <select id="mealTime" class="form-select">
+                  <option value="lunch">午餐</option>
+                  <option value="dinner">晚餐</option>
+                </select>
+              </div>
+              <div class="col-12 mb-32">
+                <h4 class="h5">【網路訂位說明】</h4>
+                <ul>
+                  <li>網路開放時間為：訂位隔日起 ~ 一個月內。</li>
+                  <li>用餐當日訂位保留時間為10分鐘，請準時入席，逾時將取消訂位。</li>
+                  <li>訂位用餐時間為90分鐘。</li>
+                  <li>網路訂位成功者，如未到場且未於線上或電話通知分店取消訂位，視同「訂位未到且未提前通知取消」；「訂位未到且未提前通知取消」次數達到三次，系統將取消您的網路訂位資格，造成不便敬請見諒。</li>
+                </ul>
+              </div>
+            </div>
+            <button type="submit" class="btn btn-lg btn-primary w-100">
+              送出訂位資訊
+            </button>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <footer class="border-top border-primary border-4 bg-gray">
+      <div class="container py-5">
+        <div class="row row-cols-1 row-cols-md-2 ps-4 ps-md-0">
+          <div class="col mb-5 mb-md-0">
+            <ul class="list-unstyled mb-0">
+              <li class="p-1">
+                <a href="#" class="text-decoration-none link-light">關於</a>
+              </li>
+              <li class="p-1">
+                <a href="#" class="text-decoration-none link-light">聯絡我們</a>
+              </li>
+              <li class="p-1">
+                <a href="#" class="text-decoration-none link-light">全部商品</a>
+              </li>
+              <li class="p-1">
+                <a href="#" class="text-decoration-none link-light"
+                  >隱私權條款</a
+                >
+              </li>
+            </ul>
+          </div>
+          <div class="col d-flex align-items-center justify-content-md-center">
+            <img
+              src="https://cdn-icons-png.flaticon.com/512/7780/7780149.png"
+              style="height: 80px; width: 80px"
+              alt=""
+            />
+            <div>
+              <p class="text-light">請輸入 E-mail，即可訂閱或取消電子報</p>
+              <div class="input-group mb-3" style="width: 300px">
+                <input
+                  type="text"
+                  class="form-control"
+                  placeholder="請輸入E-mail"
+                  aria-label="請輸入E-mail"
+                  aria-describedby="button-subscribe"
+                />
+                <button
+                  class="btn btn-outline-primary"
+                  type="button"
+                  id="button-subscribe"
+                >
+                  確定
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="bg-dark py-4">
+        <p class="text-white text-center mb-0">
+          Copyright © 2022 泰蝦惹 by Mingyo
+        </p>
+        <p class="text-secondary text-center mb-0">
+          網站內容純屬虛構，僅供個人練習使用，圖片均來自Unsplash、pixabay圖庫
+        </p>
+      </div>
+    </footer>
+    <a href="#" class="position-fixed end-0 bottom-0 h2 px-3">
+      <i class="bi bi-arrow-up-circle-fill"></i>
+    </a>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
