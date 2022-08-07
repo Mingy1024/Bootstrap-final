@@ -5587,9 +5587,9 @@ fieldset:disabled .btn {
 .page-link {
   position: relative;
   display: block;
-  color: #FF8A19;
+  color: #fff;
   text-decoration: none;
-  background-color: #fff;
+  background-color: transparent;
   border: 1px solid #dee2e6;
   -webkit-transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, -webkit-box-shadow 0.15s ease-in-out;
   transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, -webkit-box-shadow 0.15s ease-in-out;
@@ -5606,15 +5606,15 @@ fieldset:disabled .btn {
 
 .page-link:hover {
   z-index: 2;
-  color: #cc6e14;
-  background-color: #e9ecef;
+  color: #FF8A19;
+  background-color: transparent;
   border-color: #dee2e6;
 }
 
 .page-link:focus {
   z-index: 3;
   color: #cc6e14;
-  background-color: #e9ecef;
+  background-color: transparent;
   outline: 0;
   -webkit-box-shadow: 0 0 0 0.25rem rgba(255, 138, 25, 0.25);
           box-shadow: 0 0 0 0.25rem rgba(255, 138, 25, 0.25);
@@ -5626,9 +5626,9 @@ fieldset:disabled .btn {
 
 .page-item.active .page-link {
   z-index: 3;
-  color: #fff;
-  background-color: #FF8A19;
-  border-color: #FF8A19;
+  color: #FF8A19;
+  background-color: transparent;
+  border-color: transparent;
 }
 
 .page-item.disabled .page-link {
@@ -12486,13 +12486,21 @@ fieldset:disabled .btn {
   background-position: center center;
 }
 
-.hover-link {
+.hover-bg {
   -webkit-transition: .25s;
   transition: .25s;
 }
 
-.hover-link:hover {
+.hover-bg:hover {
   background: #FF8A19;
+}
+
+.hover-color:hover {
+  color: #FF8A19;
+}
+
+.link-active {
+  color: #FF8A19;
 }
 
 .card-product {
@@ -12520,6 +12528,12 @@ fieldset:disabled .btn {
 
 .product-secondary {
   height: 300px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.product-normal {
+  height: 200px;
   -o-object-fit: cover;
      object-fit: cover;
 }
@@ -12567,5 +12581,9 @@ fieldset:disabled .btn {
   bottom: 0;
   width: 3px;
   background-color: #FF8A19;
+}
+
+.font-Kalam {
+  font-family: 'Kalam', cursive;
 }
 /*# sourceMappingURL=all.css.map */

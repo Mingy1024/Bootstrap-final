@@ -1,0 +1,14 @@
+.hover-bg {
+    transition: .25s;
+    &:hover {
+        background: $primary;
+    }
+}
+.hover-color {
+    &:hover {
+        color:$primary;
+    }
+}
+.link-active {
+    color: $primary;
+}
